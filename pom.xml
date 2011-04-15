@@ -16,6 +16,26 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.badlogic.libgdx</groupId>
+            <artifactId>gdx-backend-jogl-natives</artifactId>
+            <version>0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogic.libgdx</groupId>
+            <artifactId>gdx-backend-jogl</artifactId>
+            <version>0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogic.libgdx</groupId>
+            <artifactId>gdx-natives</artifactId>
+            <version>0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogic.libgdx</groupId>
+            <artifactId>gdx</artifactId>
+            <version>0.9</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>r09</version>
@@ -27,4 +47,15 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+  <repositories>
+    <repository>
+      <id>frozenbee-public</id>
+      <name>Frozen nexus</name>
+      <layout>default</layout>
+      <url>http://cloud.frozenbee.com/nexus/content/groups/public</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 </project>
